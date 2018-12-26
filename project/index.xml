@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on George Halal</title>
-    <link>https://georgehalal.github.io/tags/</link>
-    <description>Recent content in Tags on George Halal</description>
+    <title>Projects on George Halal</title>
+    <link>https://georgehalal.github.io/project/</link>
+    <description>Recent content in Projects on George Halal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Tue, 25 Dec 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://georgehalal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://georgehalal.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal</title>
-      <link>https://georgehalal.github.io/tags/personal/</link>
+      <link>https://georgehalal.github.io/project/personal/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://georgehalal.github.io/tags/personal/</guid>
+      <guid>https://georgehalal.github.io/project/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://georgehalal.github.io/tags/research/</link>
+      <link>https://georgehalal.github.io/project/research/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://georgehalal.github.io/tags/research/</guid>
+      <guid>https://georgehalal.github.io/project/research/</guid>
       <description></description>
     </item>
     
