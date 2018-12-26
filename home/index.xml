@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://georgehalal.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://georgehalal.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
       
       <guid>https://georgehalal.github.io/home/about/</guid>
       <description>Biography Born and raised in Syria, my family and I moved to Lebanon in 2012 due to the Syrian Civil War. After graduating high school in Lebanon, I moved to the U.S. for college and my family moved to Dubai, UAE. I am now an undergraduate senior at Lehigh University, majoring in physics and minoring in applied mathematics. I use machine learning techniques (a form of artificial intelligence) to analyze data coming from ultrarelativistic heavy ion collisions to better understand the strong force (Quantum Chromodynamics).</description>
@@ -24,14 +24,23 @@
     <item>
       <title>Skills</title>
       <link>https://georgehalal.github.io/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
       
       <guid>https://georgehalal.github.io/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Analysis Experience</title>
+      <title>Galleries</title>
+      <link>https://georgehalal.github.io/home/projects/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://georgehalal.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis Projects</title>
       <link>https://georgehalal.github.io/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -40,20 +49,11 @@
     </item>
     
     <item>
-      <title>Hardware Experience</title>
+      <title>Hardware Projects</title>
       <link>https://georgehalal.github.io/home/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://georgehalal.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Galleries</title>
-      <link>https://georgehalal.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://georgehalal.github.io/home/projects/</guid>
       <description></description>
     </item>
     
