@@ -6,7 +6,7 @@
     <description>Recent content in Homes on George Halal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 George Halal</copyright>
+    <copyright>&amp;copy; 2019 George Halal</copyright>
     <lastBuildDate>Tue, 25 Dec 2018 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://georgehalal.github.io/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
       
       <guid>https://georgehalal.github.io/home/about/</guid>
-      <description>About Me Born and raised in Syria, my family and I moved to Lebanon in 2012 due to the Syrian Civil War. After graduating high school in Lebanon, I moved to the U.S. for college and my family moved to Dubai, UAE. I am now an undergraduate senior at Lehigh University, majoring in physics and minoring in applied mathematics. I currently use machine learning techniques, a form of artificial intelligence, to study strong interactions using data from ultrarelativistic heavy ion collisions at the STAR experiment at RHIC.</description>
+      <description>About Me Born and raised in Syria, my family and I moved to Lebanon in 2012 due to the Syrian Civil War. After graduating high school in Lebanon, I moved to the U.S. for college, and my family moved to Dubai, UAE. I currently use machine learning techniques, a form of artificial intelligence, to analyze data from ultrarelativistic heavy ion collisions at the STAR experiment at RHIC. I also previously aided in building, testing, and analyzing the performance of one of the detector upgrades for STAR among other projects.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>Analysis Projects</title>
+      <title>Data Analysis Projects</title>
       <link>https://georgehalal.github.io/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
