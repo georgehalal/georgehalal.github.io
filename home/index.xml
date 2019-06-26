@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 George Halal</copyright>
-    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://georgehalal.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,16 +15,17 @@
     <item>
       <title></title>
       <link>https://georgehalal.github.io/home/about/</link>
-      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0800</pubDate>
       
       <guid>https://georgehalal.github.io/home/about/</guid>
-      <description>About Me Born and raised in Syria, my family and I moved to Lebanon in 2012 due to the Syrian Civil War. After graduating high school in Lebanon, I moved to the U.S. for college, and my family moved to Dubai, UAE. In June 2019, I will be attending Stanford University to pursue my PhD in physics, and I hope to eventually work as a professor at a research university.</description>
+      <description>About Me Born and raised in Syria, my family and I moved to Lebanon in 2012 due to the Syrian Civil War. After graduating high school in Lebanon, I moved to the U.S. for college, and my family moved to Dubai, UAE. I am currently a first-year physics Ph.D. student at Stanford University, and I hope to eventually work as a professor at a research university.
+I started my physics Ph.</description>
     </item>
     
     <item>
       <title>Skills</title>
       <link>https://georgehalal.github.io/home/skills/</link>
-      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0800</pubDate>
       
       <guid>https://georgehalal.github.io/home/skills/</guid>
       <description></description>
@@ -33,7 +34,7 @@
     <item>
       <title>Galleries</title>
       <link>https://georgehalal.github.io/home/projects/</link>
-      <pubDate>Tue, 25 Dec 2018 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 -0800</pubDate>
       
       <guid>https://georgehalal.github.io/home/projects/</guid>
       <description></description>
@@ -60,7 +61,7 @@
     <item>
       <title>Contact</title>
       <link>https://georgehalal.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://georgehalal.github.io/home/contact/</guid>
       <description></description>
