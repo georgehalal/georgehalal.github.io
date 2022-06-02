@@ -2915,7 +2915,6 @@ input, select, textarea {
 		background-image: url("images/LIC_cropped.png");
 		background-position: top left;
 		background-size: contain;
-                background-repeat: no-repeat;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
