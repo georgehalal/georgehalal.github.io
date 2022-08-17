@@ -2822,7 +2822,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: relative;
 			background-image: url("images/intro.gif");
-			background-size: contain;
+			background-size: cover;
 		}
 
 			.main.style2 a {
@@ -2912,9 +2912,10 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/LIC_cropped.png");
-		background-position: top left;
-		background-size: contain;
+		background-image: url("images/LIC.png");
+		background-position: bottom right;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3108,10 +3109,11 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,fixed;
-		background-image: url("images/overlay2.svg"), url("images/bicep.png");
-		background-position: center center, top left;
-		background-size: cover, contain;
+		background-image: url("images/overlay2.svg"), url("images/bicep.jpeg");
+		background-position: center center, center;
+		background-size: cover, 100% 100%;
 		text-align: center;
+		background-repeat: no-repeat;
 	}
 
 		#footer a {
