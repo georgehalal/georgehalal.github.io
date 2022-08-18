@@ -1,4 +1,7 @@
 <html>
+	<script type="text/javascript" src="scripts/pager.js"></script>
+	<link rel="stylesheet" type="text/css" href="scripts/pager.css">
+
 	<head>
 		<title>George Halal</title>
 		<meta charset="utf-8" />
@@ -127,6 +130,9 @@
 							<span class="image fit"><img src="images/misalignment.png" alt="" /></span>
 							<h3>Magnetic Misalignment of Interstellar Dust Filaments</h3>
 							<p>Developed one of the algorithms used in this analysis, fixing spurious correlation in previous algorithm, and made figures confirming one of the conclusions of this analysis. Publication in prep.</p>
+							<ul class="actions special">
+								<li><a href="https://arxiv.org/abs/2208.07382" class="button">Paper</a></li>
+							</ul>
 						</div>
 					</div>
 					<div class="row gtr-150">
@@ -521,6 +527,59 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</section>
 -->
 
+		<section id="intro" class="main style2 special">
+			<div class="container">
+				<header class="major">
+					<h2>POLARIZATION OF DUST FILAMENTS</h2>
+				</header>
+			</div>
+		</section>
+
+		<!-- One -->
+		<section id="pager" class="main style1 special">
+			<div class="container">
+				Dust grains are organized into filaments that are well aligned with the magnetic field. 
+				Therefore, the light they emit is polarized. In the following figure, I run two different 
+				computer vision algorithms on toy dust filaments to show their emitted polarization patterns
+				under the assumption of perfect alignment between those filaments and the magnetic field. 
+				<img id="toyfilhp2" src="#" width='60%' />
+				<script type="text/javascript">
+					pager.link("#toyfilhp2",
+					{
+					'Toy Model|tfmod2': [
+							'1 Filament|fil_l30w3_a5_s30_loc00_hp',
+							'2 Filaments|fil_2_ang0_10to1_5deg_loc00_hp',
+							'2 Filaments (Flipped)|fil_2_flip_ang0_10to1_5deg_loc00_hp',
+							'Stanford Logo|stanford_20deg_loc00_hp',
+							'Spiral|spiral_20deg_loc00_hp',
+							'Spiral (Flipped)|spiral_flip_20deg_loc00_hp',
+							'Dashed Curve|curved_dotted_line_c5_s100_loc00_hp',
+							'Dashed Curve (Flipped)|curved_dotted_line_flip_c5_s100_loc00_hp',
+							'Dashed S Curve|curved_dotted_line_s_c5_s100_loc00_hp',
+							'Dashed S Curve (Flipped)|curved_dotted_line_s_flip_c5_s100_loc00_hp',
+							'X Shape|letter_x_c5_s100_loc00_hp',
+							],
+			
+					'Polarization|tfplt2': ['Stokes I|I','Stokes Q|Q','Stokes U|U','E-mode|E','B-mode|B','P pol. vecs|Ppols','E pol. vecs|Epols','B pol. vecs|Bpols',
+							'TE pol. vecs|TEpols','TB pol. vecs|TBpols','EB pol. vecs|EBpols','EE spec.|EE','BB spec.|BB','TE spec.|TE','EB spec.|EB','TB spec.|TB'],
+			
+					'Algorithm|tfalg2': ['RHT|RHT','Hessian|Hess'],
+					},
+					function(params) {
+					return 'figs/'+params.tfmod2+'/'+params.tfalg2+'_'+params.tfplt2+'.png';
+					});
+					pager.setparams({
+					'tfmod2': 'stanford_20deg_loc00_hp',
+					'tfplt2': 'Epols',
+					'tfalg2': 'RHT',
+					});
+					// ...or equivalently...
+					//pager.deserialize('est=normal&t1=T&t2=map&RX=rx0&cs=1');
+					pager.gridalign('#toyfilhp2', 4);
+				</script>
+			</div>
+		</section>
+
 		<!-- Footer -->
 			<section id="footer">
                                 <!--
@@ -532,7 +591,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                                 <h2>CONTACT ME</h2>
                                 <p>georgech@stanford.edu</p>
 				<ul class="copyright">
-					<li>&copy; George Halal 2022.</li><li>Background visualizations by: George Halal</li><li>Template: HTML5 UP</li>
+					<li>&copy; George Halal 2022</li><li>Background visualizations by: George Halal</li><li>Template: HTML5 UP</li>
 				</ul>
 			</section>
 
