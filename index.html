@@ -37,7 +37,7 @@
 				<div class="inner">
 					<!--<span class="icon solid major fa-cloud"></span>-->
 					<h1>GEORGE HALAL</h1>
-					<p>LLM & Retrieval Research<br />Stanford Physics Ph.D.</p>
+					<p>Search & Agents Research<br />Prev: Stanford Physics Ph.D.</p>
 					<ul class="actions special">
 						<li><a href="#one" class="button scrolly">Learn More</a></li>
 					</ul>
@@ -52,12 +52,17 @@
 							<header class="major">
 								<h2>ABOUT ME</h2>
 							</header> 
-							<p>I'm an LLM researcher with expertise in agentic search, synthetic data generation, and LLM training. Most recently, I trained a 
-								<a href="https://contextual.ai/blog/introducing-instruction-following-reranker/">SOTA LLM reranker on both 
-								public and customer benchmarks and the first reranker that can follow natural language instructions</a>.
-								I have experience building LLM-based data pipelines for different projects I have led, including GraphRAG (turning documents 
-								into knowledge graphs to reason over at query-time) and training an LLM-based filter for RAG systems. I'm currently
-								focused on optimizing agentic knowledge search tool use.
+							<p>Stanford physics PhD turned AI engineer with expertise in agentic search, synthetic data generation, and LLM training and finetuning. 
+								Most recently, <a href="https://contextual.ai/blog/rerank-v2">I trained and open sourced a family of highest-performing, most-efficient, 
+								instruction-following, multilingual LLM rerankers.</a> With those models, I've reclaimed the throne after having trained the 
+								<a href="https://contextual.ai/blog/introducing-instruction-following-reranker/">world's first instruction-following
+								reranker, which was also state-of-the-art on popular public benchmarks and internal customer testing</a> a few months before that.
+								I have also built synthetic data generation pipelines for different purposes, including generating
+								<a href="https://huggingface.co/collections/ContextualAI/contextual-ai-instruction-following-retrieval-evals-6899f1dba6d665f884345391">
+								an instruction-following retrieval evaluation benchmark.</a> I have additionally worked on optimizing agentic search and navigation tool
+								use as well as building LLM-based pipelines for different projects I have led, including turning documents into knowledge graphs to reason over 
+								at query-time.</p>
+							</p><p>I'm currently focused on ...
 							</p><p>
 								Prior to my current role, I earned my Ph.D. in physics from <a href="https://www.stanford.edu/">Stanford University</a>,
 								where my focus was on developing computer vision and statistical methods for studying early universe expansion.
@@ -68,7 +73,7 @@
                                                         </ul>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="files/george3.JPG" alt="" /></span>
+							<span class="image fit"><img src="files/george.jpeg" alt="" /></span>
 						</div>
 					</div>
 				</div>
@@ -125,26 +130,37 @@
 					<p>Below is a non-exhaustive list of some projects I worked on or am currently working on, including links to publications, codes, visualizations, posters, talks, etc.</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="files/reranker_v2.jpeg" alt="" /></span>
+							<h3>Best-Performing, Most-Efficient Family of Instruction-Following Multilingual Rerankers (v2)</h3>
+							<p>Trained rerankers at the cost/performance frontier across popular benchmarks and open sourced them.</p>
+							<ul class="actions special">
+								<li><a href="https://contextual.ai/blog/rerank-v2" class="button">Blogpost</a></li>
+								<li><a href="https://huggingface.co/collections/ContextualAI/contextual-ai-reranker-v2-68a60ca62116ac71437b3db7" class="button">HuggingFace</a></li>
+								<li><a href="https://x.com/halal_george/status/1960735141489184895" class="button">Announcement</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/agents.png" alt="" /></span>
-							<h3>Agentic Search Tool Use Optimization</h3>
-							<p>Optimized the type, number, cost, and latency of knowledge search tools used by an agent planner during rollouts.</p>
+							<h3>Agentic Search & Navigation Tool Use Optimization</h3>
+							<p>Optimized the type, number, cost, and latency of knowledge search and naviagation tools used by an agent during rollouts.</p>
 						</div>
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><a href="https://vimeo.com/1064500432/db8f406409"><img src="files/reranker.jpg" alt="" /></a></span>
-							<h3>SOTA and First Instruction-Following Reranker</h3>
+							<h3>SOTA and World's First Instruction-Following Reranker (v1)</h3>
 							<p>Trained a reranker that can follow natural language instructions and outperforms all other rerankers on leading benchmarks.</p>
 							<ul class="actions special">
 								<li><a href="https://contextual.ai/blog/introducing-instruction-following-reranker/" class="button">Blogpost</a></li>
 								<li><a href="https://contextual.ai/blog/contextual-ais-state-of-the-art-reranker-coming-to-snowflake-cortex-ai/" class="button">Snowflake Announcement</a></li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/filter.png" alt="" /></span>
 							<h3>RAG LLM-Based Filter</h3>
 							<p>Trained an LLM-based filter that improves the response equivalence rate metric by 4%.</p>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/graphrag.png" alt="" /></span>
 							<h3>LLM-Based Graph Retrieval System (GraphRAG)</h3>
@@ -159,14 +175,15 @@
 								<li><a href="https://github.com/georgehalal/transformer-dust-superres/blob/main/docs/Thesis_Ch5_GHalal.pdf" class="button">Thesis Chapter</a></li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/doseadj.png" alt="" /></span>
 							<h3>Causal Inference for Optimal Dose Adjustment Strategy</h3>
 							<p>Used causal inference and machine learning techniques for analyzing the impact of dose adjustment patterns throughout IVF cycles on pregnancy outcomes.
 								Developed statistical tests to alert clinics when a doctor's performance deviates from their peers' on key performance indicators (KPIs).</p>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/localbubble.png" alt="" /></span>
 							<h3>Causal Inference for Modeling the Effects of Nearby Dust Geometry on Magnetic Fields</h3>
@@ -184,6 +201,9 @@
 								<li><a href="https://indico.cmb-s4.org/event/51/#63-polarized-emission-of-dust" class="button">Invited Talk (CMB-S4)</a></li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/sphericalrht_logo.gif" alt="" /></span>
 							<h3>Spherical Harmonic Convolutional Hough Transform</h3>
@@ -193,8 +213,6 @@
 								<li><a href="https://zenodo.org/record/8025777" class="button">Citation</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/corner_HI.png" alt="" /></span>
 							<h3>Modeling the Foreground Obscuring Radiation from the Early Universe</h3>
@@ -217,6 +235,9 @@
 								<li><a href="https://arxiv.org/abs/2208.07382" class="button">Paper</a></li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/Vansyngel.png" alt="" /></span>
 							<h3>Bayesian Inference on Vansyngel Dust Model</h3>
@@ -225,8 +246,6 @@
 								<li><a href="https://github.com/georgehalal/BayesInfer_DustModel" class="button icon brands fa-github">Code</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/cwgan-gp.png" alt="" /></span>
 							<h3>Machine Learning for Stochastic Generation of Observed Galaxy Properties</h3>
@@ -243,6 +262,9 @@
 								<li><a href="https://github.com/georgehalal/DetectNet" class="button icon brands fa-github">Code</a></li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/doublebeta.png" alt="" /></span>
 							<h3>Machine Learning to Search for 2-$\nu$ Double-$\beta$ Decay of $^{136}$Xe to the Excited State of $^{136}$Ba</h3>
@@ -251,8 +273,6 @@
 								<li><a href="files/ML_EXO.png" class="button">Poster</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/jetflavornet.png" alt="" /></span>
 							<h3>Machine Learning for Heavy-Flavor Jet Classification at RHIC</h3>
@@ -267,6 +287,9 @@
 							<h3>Machine Learning for Collision Geometry Determination</h3>
 							<p>Developed a model to identify the collision geometry of nuclei based on the activation pattern of STAR-EPD detector tiles in Python, leveraging C++ for efficient data preprocessing.</p>
 						</div>
+					</div>
+
+					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/star.jpeg" alt="" /></span>
 							<h3>Performance Analysis of the STAR Event Plane Detector</h3>
@@ -275,8 +298,6 @@
 								<li><a href="files/epd_poster.JPG" class="button">Poster</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="files/nexo.png" alt="" /></span>
 							<h3>Analysis of R&D Test Setups for the nEXO Experiment</h3>
